@@ -36,4 +36,3 @@ for event in EventSource(URL):
 			# Produce data to Kafka topic
 			producer.send(TOPIC, value=data_to_write)
 			producer.flush()
-				
